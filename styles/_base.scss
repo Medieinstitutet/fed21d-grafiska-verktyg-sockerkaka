@@ -1,7 +1,22 @@
 body {
-  font-family: $font-body;
+  font-family: $font-Roboto;
 
   h1 h2 h3 h4 h5 {
-    font-family: $font-for-headers;
+    font-family: $font-Baumans;
+  }
+
+  background-color: pink;
+
+  //// MENU SECTION ////
+  .menuContainer {
+    display: flex;
+    flex-direction: column;
+    article {
+      border: 1px black solid;
+    }
+  }
+
+  .cookieHeader {
+    font-family: $font-Roboto;
   }
 }

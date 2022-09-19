@@ -1,3 +1,13 @@
+//Want to use "use" instead of "import" but it doesn't work
+
 @import 'colors';
 @import 'fonts';
-@import '_base';
+@import 'base';
+
+@media screen and (min-width: 744px) {
+  @import 'tablet';
+}
+
+@media screen and(min-width: 1200px) {
+  @import 'desktop';
+}
