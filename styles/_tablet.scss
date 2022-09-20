@@ -1,0 +1,16 @@
+//// COOKIE STYLING ////
+body {
+  .cookie-container {
+    height: 295px;
+    .cookie-text {
+      padding-left: 86px;
+      padding-right: 86px;
+    }
+    .button-and-settings {
+      display: flex;
+      gap: 30px;
+      flex-direction: row;
+      padding-left: 30%;
+    }
+  }
+}
