@@ -1,14 +1,46 @@
 body {
+  background-color: pink;
+  margin: 0;
   font-family: $font-Roboto;
 
-  h1 h2 h3 h4 h5 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     font-family: $font-Baumans;
   }
 
-  background-color: pink;
+  header {
+    background-color: lightgray;
+  }
+
+  .start-page {
+    display: flex;
+    flex-direction: column;
+    background-color: lightcoral;
+    align-items: center;
+
+    .quote-card {
+      background-color: #000000;
+      height: 151px;
+      border-radius: 0px 50px;
+      width: 299px;
+      font-size: 30px;
+      line-height: 35px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 
   //// MENU SECTION ////
-  .menuContainer {
+  .menu-container {
     display: flex;
     flex-direction: column;
     article {
@@ -16,7 +48,9 @@ body {
     }
   }
 
-  .cookieHeader {
-    font-family: $font-Roboto;
+  .cookie-text-container {
+    .cookie-header {
+      font-family: $font-Roboto;
+    }
   }
 }
