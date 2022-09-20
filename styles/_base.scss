@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: $font-Roboto;
+  font-size: 20px;
+  line-height: 25px;
 
   //CAN I MAKE VARIABLES WITH MULTIPLE VALUES??
   h1 {
@@ -71,10 +73,10 @@ body {
     background-color: $light-yellow;
     align-items: center;
     article {
-      border: 1px black solid;
       text-align: center;
       h3 {
         font-size: 40px;
+        margin: 50px 0 8px;
       }
       figure {
         width: 180px;
@@ -82,6 +84,64 @@ body {
         border-radius: 35px;
         border: black solid 1px;
       }
+    }
+  }
+
+  ////FOOTER////
+  footer {
+    background-color: #424242;
+    color: white;
+    text-align: center;
+    height: 364px;
+    position: relative;
+
+    .subscribe-layout {
+      p {
+        position: relative;
+        top: 35px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        input {
+          position: relative;
+          top: 35px;
+          margin-bottom: 55px;
+          width: 315px;
+          height: 55px;
+          background-color: #d9d9d9;
+          font-size: 20px;
+          border: none;
+          border-radius: 10px;
+          &::placeholder {
+            color: #000000;
+            opacity: 1;
+          }
+        }
+      }
+    }
+    .horisontal-rule {
+      position: relative;
+      top: 10px;
+      width: 315px;
+      border-top: 1px dashed #ffffff;
+      border-bottom: none;
+    }
+
+    .social-media-icons {
+      position: relative;
+      top: 20px;
+      display: flex;
+      flex-direction: row;
+      gap: 33px;
+      justify-content: center;
+    }
+
+    p {
+      position: relative;
+      top: 20px;
     }
   }
 
