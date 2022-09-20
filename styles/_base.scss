@@ -1,26 +1,41 @@
 body {
-  background-color: pink;
   margin: 0;
   font-family: $font-Roboto;
 
-  h1,
-  h2,
-  h3,
-  h4,
+  //CAN I MAKE VARIABLES WITH MULTIPLE VALUES??
+  h1 {
+    font-family: $font-Baumans;
+    font-size: $baumans-h1;
+  }
+  h2 {
+    font-family: $font-Baumans;
+    font-size: $baumans-h2;
+  }
+  h3 {
+    font-family: $font-Baumans;
+    font-size: $baumans-h3;
+  }
+  h4 {
+    font-family: $font-Baumans;
+    font-size: $baumans-h4;
+  }
   h5 {
     font-family: $font-Baumans;
+    font-size: $baumans-h5;
   }
 
   header {
     background-color: lightgray;
   }
 
+  ////TOP OF MOBILE SECTION ////
   .start-page {
     display: flex;
     flex-direction: column;
     background-color: lightcoral;
     align-items: center;
-
+    position: relative;
+    height: 667px;
     .quote-card {
       background-color: #000000;
       height: 151px;
@@ -32,10 +47,20 @@ body {
       align-items: center;
       text-align: center;
       color: white;
+      position: relative;
+      top: 218px;
     }
     .button-container {
       display: flex;
       flex-direction: column;
+      .button-one {
+        position: relative;
+        top: 250px;
+      }
+      .button-two {
+        position: relative;
+        top: 270px;
+      }
     }
   }
 
@@ -43,11 +68,24 @@ body {
   .menu-container {
     display: flex;
     flex-direction: column;
+    background-color: $light-yellow;
+    align-items: center;
     article {
       border: 1px black solid;
+      text-align: center;
+      h3 {
+        font-size: 40px;
+      }
+      figure {
+        width: 180px;
+        height: 180px;
+        border-radius: 35px;
+        border: black solid 1px;
+      }
     }
   }
 
+  ////COOKIE STYLING////
   .cookie-text-container {
     .cookie-header {
       font-family: $font-Roboto;
