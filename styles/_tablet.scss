@@ -1,4 +1,30 @@
 body {
+  //// HEADER ////
+
+  // NAVIGATION TOGGLE AT CLICK ON HAMBURGER
+  header {
+    .navigation {
+      width: 417px;
+      right: 0;
+      height: 1024px;
+    }
+  }
+
+  //// MAIN ////
+  main {
+    .start-page {
+      height: 1133px;
+      .quote-card {
+        width: 559px;
+        margin-top: 400px;
+        top: 0;
+        h4 {
+          font-size: 40px; //ÄNDRA TILL H3 HÄR?? ALTERNATIVT ALLTID H3 OCH ÄNDRA TEXTSTORLEK I MOBILLÄGE
+        }
+      }
+    }
+  }
+
   //// FOOTER ////
 
   footer {

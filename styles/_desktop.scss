@@ -1,4 +1,14 @@
 body {
+  //// HEADER ////
+
+  // NAVIGATION TOGGLE AT CLICK ON HAMBURGER
+  header {
+    .navigation {
+      width: 417px;
+      right: 0;
+    }
+  }
+
   //// FOOTER ////
   footer {
     height: 308px;
