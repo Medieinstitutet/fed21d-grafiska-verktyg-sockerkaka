@@ -1,12 +1,22 @@
-//// COOKIE STYLING ////
+//// COOKIE SECTION STYLING ////
 body {
   .cookie-container {
+    display: flex;
     height: 186px;
-    background-color: rgb(106, 81, 16);
+    width: 100%;
     .cookie-text {
       width: 50%;
-      padding-left: 186px;
-      padding-right: 86px;
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 20px;
+      margin-left: 100px;
+    }
+    .button-and-settings {
+      width: 50%;
+      padding-left: 0;
+      padding-right: 0;
+      margin-right: 100px;
+      justify-content: flex-end;
     }
   }
 }
