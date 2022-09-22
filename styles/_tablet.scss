@@ -2,14 +2,12 @@ body {
   //// HEADER ////
 
   // NAVIGATION TOGGLE AT CLICK ON HAMBURGER
-  header {
-    .navigation {
-      width: 417px;
-      right: 0;
-      height: 1024px;
-    }
-  }
 
+  .menu.menu-open nav {
+    width: 417px;
+    right: 0;
+    height: 1024px;
+  }
   //// MAIN ////
   main {
     .start-page {
@@ -17,11 +15,35 @@ body {
       .quote-card {
         width: 559px;
         margin-top: 400px;
+        text-align: left;
+        padding-left: 50px;
         top: 0;
         h4 {
           font-size: 40px; //ÄNDRA TILL H3 HÄR?? ALTERNATIVT ALLTID H3 OCH ÄNDRA TEXTSTORLEK I MOBILLÄGE
         }
       }
+      .button-container {
+        display: flex;
+        flex-direction: row;
+        gap: 31px;
+        .button-one {
+          top: 20px;
+        }
+        .button-two {
+          top: 20px;
+        }
+      }
+    }
+  }
+
+  //// MENU SECTION ////
+  .food-menu-section {
+    .food-menu-container {
+      flex-direction: row !important; //Varför behöver man important här???
+      flex-wrap: wrap;
+      width: 600px;
+      margin: 0 auto;
+      justify-content: space-around;
     }
   }
 

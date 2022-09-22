@@ -5,4 +5,8 @@
   border: none;
   border-radius: 50px;
   font-size: 1.5rem;
+  &:hover {
+    background-color: #fba500;
+    cursor: pointer;
+  }
 }

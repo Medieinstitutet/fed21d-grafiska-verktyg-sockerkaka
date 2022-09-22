@@ -1,11 +1,21 @@
 body {
   //// HEADER ////
 
-  // NAVIGATION TOGGLE AT CLICK ON HAMBURGER
-  header {
-    .navigation {
-      width: 417px;
-      right: 0;
+  //// MAIN ////
+  //// MENU SECTION ////
+
+  main {
+    .food-menu-section {
+      padding-bottom: 103px;
+      h1 {
+        width: 900px;
+        margin: 0 auto;
+        text-align: left;
+        padding-left: 70px;
+      }
+      .food-menu-container {
+        width: 900px;
+      }
     }
   }
 
