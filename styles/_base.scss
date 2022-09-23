@@ -156,8 +156,10 @@ body {
           figure {
             width: 180px;
             height: 180px;
-            border-radius: 35px;
-            border: black solid 1px;
+            img {
+              height: 180px;
+              border-radius: 35px;
+            }
           }
         }
       }
@@ -177,6 +179,7 @@ body {
         position: relative;
         top: 35px;
       }
+
       form {
         display: flex;
         flex-direction: column;

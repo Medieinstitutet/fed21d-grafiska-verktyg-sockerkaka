@@ -73,37 +73,48 @@
                 <article>
                     <h3>The Classic</h3>
                     <p>Grilled Corn - <span class="price-styling">$15</span></p>
-                    <figure></figure>
+                    <figure>
+                        <img src="/assets/menu/classic_corn.jpg" alt="Classig dish">
+                    </figure>
                 </article>
 
                 <article>
                     <h3>The Greasy</h3>
                     <p>Cheesy Corn Poppers - <span class="price-styling">$15</span></p>
-                    <figure></figure>
+                    <figure>
+                        <img src="/assets/menu/greasy_corn.jpg" alt="Greasy dish">
+                    </figure>
                 </article>
 
                 <article>
                     <h3>The Salty</h3>
                     <p>Bacon Corn Salad - <span class="price-styling">$20</span></p>
-                    <figure></figure>
+                    <figure>
+                        <img src="/assets/menu/salty_corn.jpg" alt="The salty dish">
+                    </figure>
                 </article>
 
                 <article>
                     <h3>The Healthy</h3>
                     <p>Grilled Corn Salad - <span class="price-styling">$20</span></p>
-                    <figure></figure>
+                    <figure>
+                        <img src="/assets/menu/corn_salad.jpg" alt="The healthy dish">
+                    </figure>
                 </article>
 
                 <article>
                     <h3>The Messy</h3>
                     <p>Corn Pudding - <span class="price-styling">$20</span></p>
-                    <figure></figure>
+                    <figure> <img src="/assets/menu/messy_corn.jpg" alt="The messy dish">
+                    </figure>
                 </article>
 
                 <article>
                     <h3>The Sweet</h3>
                     <p>Corn Cookies - <span class="price-styling">$10</span></p>
-                    <figure></figure>
+                    <figure>
+                        <img src="/assets/menu/cookies_corn.jpg" alt="The sweet dessert">
+                    </figure>
                 </article>
             </div>
 
@@ -119,8 +130,11 @@
         </address>
 
         <div class="subscribe-layout">
-            <p>Sign up to our newsletter to receive news about Corns.</p>
-            <!--ÄNDRA TILL RÄTT SIGN UPP TEXT BEROENDE PÅ SCREEN WIDTH-->
+            <p class="sign-up-to-newsletter">
+                <!-- <span class="mobile-view">Sign up to our newsletter.</span> -->
+                <span class="tablet-desktop-view">Sign up to our newsletter to receive news about Corns.</span>
+            </p>
+
             <form>
                 <input type="text" placeholder="example@mail.com">
                 <button class="yellow-button">Subscribe</button>
@@ -155,6 +169,8 @@
 
 
     <script>
+
+        //get elements needed to toggle hamburger menu and to hide the elements on the front page that should not be visible when menu is open
         const hamburger = document.querySelector('#menu-button');
         const frontpageElementsToHide = document.querySelector("#frontpageElementsToHide")
 
