@@ -10,11 +10,16 @@ body {
   }
   //// MAIN ////
   main {
+    margin-top: -100px;
+    .background-image {
+      background-position: center;
+      max-height: 1150px;
+    }
     .start-page {
       height: 1133px;
       .quote-card {
         width: 559px;
-        margin-top: 400px;
+        margin-top: 450px;
         text-align: left;
         padding-left: 50px;
         top: 0;
@@ -23,9 +28,9 @@ body {
         }
       }
       .button-container {
-        display: flex;
         flex-direction: row;
         gap: 31px;
+        justify-content: center;
         .button-one {
           top: 20px;
         }
@@ -58,6 +63,7 @@ body {
       position: absolute;
       left: 50px;
       top: 35px;
+      font-style: normal;
     }
 
     .subscribe-layout {

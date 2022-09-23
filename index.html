@@ -23,10 +23,8 @@
 
 <body>
 
-
-
     <header class="menu" id="menu-button">
-        <!-- <img src="/assets/background-logo/corn.svg"></img> -->
+
 
         <!-- ÄR MENYN ACCESSIBLE?? -->
         <div class="hamburger">
@@ -56,16 +54,19 @@
     </header>
 
     <main>
-        <section class="start-page">
-            <div class="quote-card">
-                <h4>"When I tried it with butter everything changed"</h4>
-            </div>
-            <div class="button-container">
-                <button class="yellow-button button-one">Menu</button>
-                <button class="yellow-button button-two">Booking</button>
-            </div>
-        </section>
-
+        <div class="background-image">
+            <section class="start-page" id="frontpageElementsToHide">
+                <div class="toggle-quote-card-section">
+                    <div class="quote-card">
+                        <h4>"When I tried it with butter everything changed"</h4>
+                    </div>
+                    <div class="button-container">
+                        <button class="yellow-button button-one">Menu</button>
+                        <button class="yellow-button button-two">Booking</button>
+                    </div>
+                </div>
+            </section>
+        </div>
         <section class="food-menu-section">
             <h1>The Menu</h1>
             <div class="food-menu-container">
@@ -138,7 +139,7 @@
         </div>
     </footer>
 
-    <!-- <section class="cookie-container">
+    <section class="cookie-container">
         <div class="cookie-text">
             <h3 class="cookie-header">Notice</h3>
             <p>This website uses cookies in order to offer you the most relevant information. Please accept cookies for
@@ -150,18 +151,21 @@
             <p><a>Change Settings</a></p>
 
         </div>
-    </section> -->
+    </section>
 
 
     <script>
         const hamburger = document.querySelector('#menu-button');
+        const frontpageElementsToHide = document.querySelector("#frontpageElementsToHide")
 
         hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle("menu-open")
+            hamburger.classList.toggle("menu-open");
+            frontpageElementsToHide.classList.toggle("toggle-quote-card-section")
         })
 
     </script>
 
 </body>
+
 
 </html>
