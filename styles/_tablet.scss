@@ -1,6 +1,13 @@
 body {
   //// HEADER ////
   .menu {
+    figure {
+      img {
+        width: 150px;
+        top: 105px;
+        left: 10px;
+      }
+    }
     .logo {
       display: inline;
       position: absolute;
@@ -8,6 +15,9 @@ body {
       top: 120px;
       color: white;
       left: 200px;
+    }
+    .hamburger {
+      top: 150px;
     }
   }
   // NAVIGATION TOGGLE AT CLICK ON HAMBURGER
@@ -73,6 +83,7 @@ body {
       left: 50px;
       top: 35px;
       font-style: normal;
+      display: inline;
     }
 
     .subscribe-layout {
@@ -96,23 +107,13 @@ body {
           width: 355px;
         }
       }
-
-      //FIXA ICONS AND ALL RIGHTS TEXT NÄR JAG HAR INTERNET!! kanske behövs inte klassen nedan
-      // .icons-and-all-rights-text {
-      //   display: flex;
-      //   flex-direction: column;
-      //   .social-media-icons {
-      //     position: absolute;
-      //     bottom: 0;
-      //   }
-      // }
     }
   }
 
   //// COOKIE SECTION STYLING ////
   .cookie-container {
     height: 295px;
-    opacity: 1;
+    opacity: 0.8;
     .cookie-text {
       padding-left: 86px;
       padding-right: 86px;
