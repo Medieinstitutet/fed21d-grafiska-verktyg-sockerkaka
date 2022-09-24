@@ -1,6 +1,15 @@
 body {
   //// HEADER ////
-
+  .menu {
+    .logo {
+      display: inline;
+      position: absolute;
+      z-index: 1;
+      top: 120px;
+      color: white;
+      left: 200px;
+    }
+  }
   // NAVIGATION TOGGLE AT CLICK ON HAMBURGER
 
   .menu.menu-open nav {

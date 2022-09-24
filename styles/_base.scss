@@ -36,6 +36,19 @@ body {
   header {
     // NAVIGATION TOGGLE AT CLICK ON HAMBURGER
     position: relative;
+
+    figure {
+      img {
+        position: absolute;
+        z-index: 1;
+        width: 150px;
+        top: 100px;
+        left: 5 0px;
+      }
+    }
+    .logo {
+      display: none;
+    }
   }
 
   .menu.menu-open nav {
@@ -68,7 +81,7 @@ body {
 
   .hamburger {
     position: fixed;
-    top: 4%;
+    top: 70px;
     right: 4%;
     z-index: 2;
     .hamburger-bar {
