@@ -8,6 +8,8 @@
 
     <title>Corns restaurant</title>
     <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon-32x32.png">
+
 
     <!-- Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -69,7 +71,7 @@
             </section>
         </div>
         <section class="food-menu-section">
-            <h1>The Menu</h1>
+            <h1 class="menu-heading">The Menu</h1>
             <div class="food-menu-container">
                 <article>
                     <h3>The Classic</h3>
@@ -160,7 +162,7 @@
         </div>
         <div class="button-and-settings">
 
-            <button class="yellow-button">Accept</button>
+            <button class="yellow-button" id="accept-cookies-btn">Accept</button>
             <p><a>Change Settings</a></p>
 
         </div>
@@ -168,19 +170,18 @@
 
 
     <script>
-
-        //get elements needed to toggle hamburger menu and to hide the elements on the front page that should not be visible when menu is open
         const hamburger = document.querySelector('#menu-button');
-        const frontpageElementsToHide = document.querySelector("#frontpageElementsToHide")
+        const frontpageElementsToHide = document.querySelector("#frontpageElementsToHide");
+        const acceptCookiesBtn = document.querySelector("#accept-cookies-btn");
 
         hamburger.addEventListener('click', () => {
             hamburger.classList.toggle("menu-open");
             frontpageElementsToHide.classList.toggle("toggle-quote-card-section")
         })
-
+        acceptCookiesBtn.addEventListener("click", () => {
+            document.getElementsByClassName("cookie-container")[0].style.display = "none";
+        })
     </script>
-
 </body>
-
 
 </html>

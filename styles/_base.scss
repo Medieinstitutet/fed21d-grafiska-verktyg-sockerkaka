@@ -147,6 +147,9 @@ body {
     //// MENU SECTION ////
     .food-menu-section {
       background-color: $light-yellow;
+      .menu-heading {
+        color: #674f12;
+      }
 
       h1 {
         text-align: center;
@@ -247,8 +250,9 @@ body {
   .cookie-container {
     color: white;
     background-color: #000000;
-    opacity: 0.8;
     height: 376px;
+    position: sticky;
+    bottom: 0;
     .cookie-text {
       padding-top: 51px;
       padding-left: 33px;
