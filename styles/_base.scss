@@ -254,10 +254,11 @@ body {
   //// COOKIE SECTION STYLING ////
   .cookie-container {
     color: white;
-    background-color: #000000;
+    background: rgba(0, 0, 0, 0.8);
     height: 376px;
     position: sticky;
     bottom: 0;
+    backdrop-filter: blur(10px) saturate(70%);
     .cookie-text {
       padding-top: 51px;
       padding-left: 33px;
