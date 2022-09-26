@@ -4,7 +4,6 @@ body {
   font-size: 20px;
   line-height: 25px;
 
-  //CAN I MAKE VARIABLES WITH MULTIPLE VALUES??
   h1 {
     font-family: $font-Baumans;
     font-size: $baumans-h1;
@@ -33,8 +32,8 @@ body {
     }
   }
 
+  //// HEADER ////
   header {
-    // NAVIGATION TOGGLE AT CLICK ON HAMBURGER
     position: relative;
 
     svg {
@@ -44,19 +43,13 @@ body {
       top: 15px;
       left: 50px;
       width: 78px;
-      // image {
-      //   // position: absolute;
-      //   // z-index: 1;
-      //   // top: 30px;
-      //   // left: 10px;
-      //   // width: 78px;
-      // }
     }
     .logo {
       display: none;
     }
   }
 
+  //HAMBURGER MENU WHEN OPEN
   .menu.menu-open nav {
     position: fixed;
     z-index: 1;
@@ -85,11 +78,15 @@ body {
     }
   }
 
+  //HAMBURGER MENU BARS
+
   .hamburger {
     position: absolute;
     top: 40px;
     right: 4%;
     z-index: 2;
+    background-color: transparent;
+    border: none;
     .hamburger-bar {
       border-radius: 6px;
       width: 50px;
@@ -129,6 +126,9 @@ body {
         color: white;
         position: relative;
         top: 218px;
+        h3 {
+          font-size: 30px;
+        }
       }
       .button-container {
         display: flex;
