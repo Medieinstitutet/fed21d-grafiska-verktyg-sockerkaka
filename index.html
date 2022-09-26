@@ -19,12 +19,17 @@
 
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/47380f962d.js" crossorigin="anonymous"></script>
+
+    <!--Greensock-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+
+
 </head>
 
 <body>
 
     <header class="menu" id="menu-button">
-        <!-- <figure><img src="/assets/background/corn.svg" alt="corns logo"></figure> -->
+
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150"
             viewBox="0 0 1344 1344">
             <image x="104" y="104" width="1136" height="1136"
@@ -64,7 +69,7 @@
     <main>
         <div class="background-image">
             <section class="start-page" id="frontpageElementsToHide">
-                <div class="toggle-quote-card-section">
+                <div class="toggle-quote-card-section" id="quote-card-animation">
                     <div class="quote-card">
                         <h4>"When I tried it with butter everything changed"</h4>
                     </div>
@@ -173,20 +178,8 @@
         </div>
     </section>
 
-
-    <script>
-        const hamburger = document.querySelector('#menu-button');
-        const frontpageElementsToHide = document.querySelector("#frontpageElementsToHide");
-        const acceptCookiesBtn = document.querySelector("#accept-cookies-btn");
-
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle("menu-open");
-            frontpageElementsToHide.classList.toggle("toggle-quote-card-section")
-        })
-        acceptCookiesBtn.addEventListener("click", () => {
-            document.getElementsByClassName("cookie-container")[0].style.display = "none";
-        })
-    </script>
+    <!--JS file-->
+    <script src="script.js"></script>
 </body>
 
 </html>
