@@ -37,15 +37,20 @@ body {
     // NAVIGATION TOGGLE AT CLICK ON HAMBURGER
     position: relative;
 
-    figure {
+    svg {
       margin: -20px;
-      img {
-        position: absolute;
-        z-index: 1;
-        top: 30px;
-        left: 10px;
-        width: 78px;
-      }
+      position: absolute;
+      z-index: 1;
+      top: 15px;
+      left: 50px;
+      width: 78px;
+      // image {
+      //   // position: absolute;
+      //   // z-index: 1;
+      //   // top: 30px;
+      //   // left: 10px;
+      //   // width: 78px;
+      // }
     }
     .logo {
       display: none;

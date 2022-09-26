@@ -1,12 +1,15 @@
 body {
   //// HEADER ////
   .menu {
-    figure {
-      img {
-        width: 150px;
-        top: 105px;
-        left: 10px;
-      }
+    svg {
+      width: 150px;
+      top: 130px;
+      left: 50px;
+      // img {
+      //   width: 150px;
+      //   top: 105px;
+      //   left: 10px;
+      // }
     }
     .logo {
       display: inline;
