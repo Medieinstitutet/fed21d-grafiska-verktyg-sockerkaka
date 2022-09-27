@@ -26,7 +26,6 @@ body {
   }
 
   .menu div {
-    cursor: pointer;
     nav {
       display: none;
     }
@@ -67,19 +66,25 @@ body {
       margin: 0;
       li {
         padding-bottom: 36px;
-      }
-      h2 {
-        margin-top: 0;
-        font-weight: 400;
-        &:hover {
-          text-decoration: underline;
+
+        a {
+          margin-top: 0;
+          font-weight: 400;
+          font-family: $font-Baumans;
+          font-size: $baumans-h2;
+          text-decoration: none;
+          &:visited {
+            color: white;
+          }
+          &:hover {
+            text-decoration: underline;
+          }
         }
       }
     }
   }
 
   //HAMBURGER MENU BARS
-
   .hamburger {
     position: absolute;
     top: 40px;
@@ -87,6 +92,9 @@ body {
     z-index: 2;
     background-color: transparent;
     border: none;
+    &:hover {
+      cursor: pointer;
+    }
     .hamburger-bar {
       border-radius: 6px;
       width: 50px;
@@ -272,11 +280,13 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
-      p {
+      a {
         text-decoration: underline;
         &:hover {
           font-weight: bold;
-          cursor: pointer;
+        }
+        &:visited {
+          color: white;
         }
       }
     }
