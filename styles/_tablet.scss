@@ -1,19 +1,12 @@
 body {
   //// HEADER ////
   .menu {
-    svg {
-      width: 150px;
-      top: 130px;
-      left: 50px;
+    img {
+      width: 140px;
+      top: 100px;
+      left: 30px;
     }
-    .logo {
-      display: inline;
-      position: absolute;
-      z-index: 1;
-      top: 120px;
-      color: white;
-      left: 200px;
-    }
+
     .hamburger {
       top: 150px;
     }

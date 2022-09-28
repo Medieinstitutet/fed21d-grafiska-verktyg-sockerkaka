@@ -1,4 +1,16 @@
 body {
+  //// HEADER ////
+
+  header {
+    .logo {
+      display: inline;
+      position: absolute;
+      z-index: 1;
+      top: 120px;
+      color: white;
+      left: 200px;
+    }
+  }
   //// MAIN ////
   main {
     .food-menu-section {
