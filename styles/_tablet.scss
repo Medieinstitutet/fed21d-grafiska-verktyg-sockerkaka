@@ -66,6 +66,9 @@ body {
 
   //// MENU SECTION ////
   .food-menu-section {
+    .menu-heading {
+      font-size: 40px;
+    }
     .food-menu-container {
       flex-direction: row !important; //Varför behöver man important här? funkar ej utan
       flex-wrap: wrap;
