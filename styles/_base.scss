@@ -59,6 +59,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
+    height: 667px;
 
     ul {
       list-style: none;
@@ -66,12 +67,12 @@ body {
       margin: 0;
       li {
         padding-bottom: 36px;
+        padding-top: 20px;
 
         a {
-          margin-top: 0;
           font-weight: 400;
           font-family: $font-Baumans;
-          font-size: $baumans-h2;
+          font-size: 55px;
           text-decoration: none;
           &:visited {
             color: white;
