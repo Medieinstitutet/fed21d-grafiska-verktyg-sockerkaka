@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: $font-Roboto;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 25px;
 
   h1 {
@@ -72,7 +72,7 @@ body {
         a {
           font-weight: 400;
           font-family: $font-Baumans;
-          font-size: 55px;
+          font-size: 3.4rem;
           text-decoration: none;
           &:visited {
             color: white;
@@ -127,7 +127,7 @@ body {
         height: 151px;
         border-radius: 0px 50px;
         width: 299px;
-        font-size: 30px;
+        font-size: 1.87rem;
         line-height: 35px;
         display: flex;
         align-items: center;
@@ -136,7 +136,7 @@ body {
         position: relative;
         top: 218px;
         h3 {
-          font-size: 30px;
+          font-size: 1.9rem;
         }
       }
       .button-container {
@@ -163,7 +163,7 @@ body {
       background-color: $light-yellow;
       .menu-heading {
         color: #674f12;
-        font-size: 72px;
+        font-size: 4.5rem;
         text-align: center;
         margin: 0;
         padding-top: 100px;
@@ -178,7 +178,7 @@ body {
         article {
           text-align: center;
           h3 {
-            font-size: 40px;
+            font-size: 2.5rem;
             margin: 50px 0 8px;
           }
           .price-styling {
@@ -226,7 +226,7 @@ body {
           width: 315px;
           height: 55px;
           background-color: #d9d9d9;
-          font-size: 20px;
+          font-size: 1.25rem;
           border: none;
           border-radius: 10px;
           padding-left: 10px;
