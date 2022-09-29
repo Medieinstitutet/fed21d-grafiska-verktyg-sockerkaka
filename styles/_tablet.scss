@@ -123,6 +123,9 @@ body {
       gap: 30px;
       flex-direction: row;
       padding-left: 30%;
+      a {
+        padding-top: 0;
+      }
     }
   }
 }
