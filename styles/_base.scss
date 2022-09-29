@@ -74,6 +74,7 @@ body {
           font-family: $font-Baumans;
           font-size: 3.4rem;
           text-decoration: none;
+          color: white;
           &:visited {
             color: white;
           }
@@ -283,6 +284,7 @@ body {
       align-items: center;
       a {
         text-decoration: underline;
+        color: white;
         &:hover {
           font-weight: bold;
         }
