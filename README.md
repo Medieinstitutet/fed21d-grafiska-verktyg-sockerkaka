@@ -1,6 +1,7 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8483128&assignment_repo_type=AssignmentRepo)
+### Projektbeskrivning
 
-# FED21D Grafiska Verktyg 🎨
+Skolarbete där vi skulle designa en tillgänglig webbapplikation med olika förutbestämda element. Vi bytte sedan design med en klasskamrat och kodade dennes design.
+Denna design är skapad av Steve Kindstrand och kodad av Tove Hydmark
 
 ### Om designen
 
@@ -12,5 +13,3 @@ Val av fonten Roboto är för att jag gillar att den är ”clean” och lättl�
 
 Jag har tänkt till med all design att den ska vara relativt enkel att koda på kort tid, samtidigt som alla moment i uppgiften ska ingå.  
 I övrigt hade jag riktigt kul med den här uppgiften, jag tycker nästan att design är den roligaste biten med front end.
-
-//Har ändrat media queries för laptop till 1200 eftersom min skärm är för liten för att se ändringar vid 1440
