@@ -1,0 +1,66 @@
+body {
+  //// HEADER ////
+
+  header {
+    .logo {
+      display: inline;
+      position: absolute;
+      z-index: 1;
+      top: 120px;
+      color: white;
+      left: 200px;
+    }
+  }
+  //// MAIN ////
+  main {
+    .food-menu-section {
+      padding-bottom: 103px;
+      h1 {
+        width: 900px;
+        margin: 0 auto;
+        text-align: left;
+        padding-left: 70px;
+      }
+      .food-menu-container {
+        width: 900px;
+      }
+    }
+  }
+
+  //// FOOTER ////
+  footer {
+    height: 308px;
+    .subscribe-layout {
+      align-items: flex-end;
+      padding-top: 0;
+      p {
+        margin-right: 195px;
+        margin-top: 0;
+      }
+      form {
+        margin-right: 100px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+  //// COOKIE SECTION STYLING ////
+  .cookie-container {
+    display: flex;
+    height: 186px;
+    width: 100%;
+    .cookie-text {
+      width: 50%;
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 20px;
+      margin-left: 100px;
+    }
+    .button-and-settings {
+      width: 50%;
+      padding-left: 0;
+      padding-right: 0;
+      margin-right: 100px;
+      justify-content: flex-end;
+    }
+  }
+}

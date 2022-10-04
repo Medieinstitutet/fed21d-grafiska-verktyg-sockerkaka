@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Corns is a modern restaurant serving delicious cornbased meals">
+
+    <title>Corns restaurant</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon-32x32.png">
+
+
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baumans&family=Roboto:ital,wght@0,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon-32x32.png">
+
+    <!--Greensock-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- HEADER WITH NAVIGATION -->
+
+    <header class="menu" id="menu-button">
+
+        <img src="assets/background/corn_png.png" alt="corns logo" width="150">
+        <h1 class="logo">CORNS</h1>
+
+        <button class="hamburger" aria-label="menu button">
+            <span class="hamburger-bar" id="bar1"></span>
+            <span class="hamburger-bar" id="bar2"></span>
+            <span class="hamburger-bar" id="bar3"></span>
+        </button>
+
+        <div class="menu-open">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#">Booking</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <main>
+
+        <!-- START PAGE -->
+
+        <div class="background-image">
+            <section class="start-page" id="frontpageElementsToHide">
+                <div class="toggle-quote-card-section">
+                    <div class="quote-card" id="quote-card-animation">
+                        <h3>"When I tried it with butter everything changed"</h3>
+                    </div>
+                    <div class="button-container">
+                        <button class="yellow-button button-one">Menu</button>
+                        <button class="yellow-button button-two">Booking</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <!-- FOOD MENU SECTION -->
+
+        <section class="food-menu-section">
+            <h2 class="menu-heading">The Menu</h2>
+            <div class="food-menu-container">
+                <article>
+                    <h3>The Classic</h3>
+                    <p>Grilled Corn - <span class="price-styling">$15</span></p>
+                    <figure>
+                        <img src="assets/menu/classic_corn.jpg" alt="Classic dish" width="180" height="180">
+                    </figure>
+                </article>
+
+                <article>
+                    <h3>The Greasy</h3>
+                    <p>Cheesy Corn Poppers - <span class="price-styling">$15</span></p>
+                    <figure>
+                        <img src="assets/menu/greasy_corn.jpg" alt="Greasy dish" width="180" height="180">
+                    </figure>
+                </article>
+
+                <article>
+                    <h3>The Salty</h3>
+                    <p>Bacon Corn Salad - <span class="price-styling">$20</span></p>
+                    <figure>
+                        <img src="assets/menu/salty_corn.jpg" alt="The salty dish" width="180" height="180">
+                    </figure>
+                </article>
+
+                <article>
+                    <h3>The Healthy</h3>
+                    <p>Grilled Corn Salad - <span class="price-styling">$20</span></p>
+                    <figure>
+                        <img src="assets/menu/corn_salad.jpg" alt="The healthy dish" width="180" height="180">
+                    </figure>
+                </article>
+
+                <article>
+                    <h3>The Messy</h3>
+                    <p>Corn Pudding - <span class="price-styling">$20</span></p>
+                    <figure> <img src="assets/menu/messy_corn.jpg" alt="The messy dish" width="180" height="180">
+                    </figure>
+                </article>
+
+                <article>
+                    <h3>The Sweet</h3>
+                    <p>Corn Cookies - <span class="price-styling">$10</span></p>
+                    <figure>
+                        <img src="assets/menu/cookies_corn.jpg" alt="The sweet dessert" width="180" height="180">
+                    </figure>
+                </article>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <address>
+            Example Adress 11 <br>
+            corns@mail.com <br>
+            070 000 00 00
+        </address>
+
+        <div class="subscribe-layout">
+            <p class="sign-up-to-newsletter">
+                <span class="tablet-desktop-view">Sign up to our newsletter to receive news about Corns.</span>
+            </p>
+
+            <form>
+                <input type="text" placeholder="example@mail.com" aria-label="Email input for subscription">
+                <button class="yellow-button">Subscribe</button>
+            </form>
+        </div>
+
+        <hr class="horisontal-rule" />
+
+        <div class="social-media-icons">
+            <i class="fa fa-facebook fa-2x"></i>
+            <i class="fa fa-twitter fa-2x"></i>
+            <i class="fa fa-instagram fa-2x"></i>
+            <i class="fa fa-google fa-2x"></i>
+        </div>
+        <p>©2018 All rights Reserved.</p>
+    </footer>
+
+    <!-- COOKIE SECTION -->
+
+    <section class="cookie-container">
+        <div class="cookie-text">
+            <h3 class="cookie-header">Notice</h3>
+            <p>This website uses cookies in order to offer you the most relevant information. Please accept cookies for
+                optimal performance.</p>
+        </div>
+        <div class="button-and-settings">
+
+            <button class="yellow-button" id="accept-cookies-btn" tabindex="1">Accept</button>
+            <a href="#" tabindex="2">Change Settings</a>
+        </div>
+    </section>
+
+    <!--JS file-->
+    <script src="script.js"></script>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/47380f962d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
