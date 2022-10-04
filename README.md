@@ -13,4 +13,3 @@ Val av fonten Roboto är för att jag gillar att den är ”clean” och lättl�
 Jag har tänkt till med all design att den ska vara relativt enkel att koda på kort tid, samtidigt som alla moment i uppgiften ska ingå.  
 I övrigt hade jag riktigt kul med den här uppgiften, jag tycker nästan att design är den roligaste biten med front end.
 
-//Har ändrat media queries för laptop till 1200 eftersom min skärm är för liten för att se ändringar vid 1440
